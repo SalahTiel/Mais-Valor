@@ -45,16 +45,17 @@ header a{
     padding: 0.8rem;
     border-radius: var(--border-radius);
     font: 500 0.7rem 'Montserrat';
-    color: var(--purple);
-    background-color: var(--gold);
+    color: var(--white);
+    background-color: var(--purple);
 }
     header a:hover{
-        color: var(--white);
-        background-color: var(--purple);
+        color: var(--purple);
+        background-color: var(--gold);
         transition: all 300ms;
     }
     header a:hover img{
-        content: url(assets/WhatsApp.svg);
+        content: url(assets/orange-WhatsApp.svg);
+        transition: all 300ms;
     }
 header a img{
     width: 30px;
@@ -95,18 +96,18 @@ section.home a{
     padding: 1rem;
     border-radius: var(--border-radius);
     text-align: center;
-    background-color: var(--gold);
+    background-color: var(--purple);
 }
     section.home a:hover{
-        background-color: var(--purple);
-        color: var(--gold);
+        background-color: var(--gold);
+        color: var(--purple);
         transition: all 300ms;
     }
     section.home a:hover p{
-        color: var(--white);
+        color: var(--purple);
     }
     section.home a:hover img{
-        content: url(assets/WhatsApp.svg);
+        content: url(assets/orange-WhatsApp.svg);
 
 }
 section.home a img{
@@ -115,7 +116,7 @@ section.home a img{
 }
 section.home a p{
     font: 700 0.8rem 'Montserrat';
-    color:var(--purple);
+    color:var(--white);
 }
 
 div.strip{
@@ -202,7 +203,7 @@ section.testimonials div.carousel div.buttons button{
     height: 50px;
     border: none;
     border-radius: 10px;
-    background-color: #3a3fc7ad;;
+    background-color: #3a3fc7ad;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -257,18 +258,18 @@ section.testimonials div.aside a{
     margin-top: 2rem;
     padding: 1rem;
     font: 700 0.8rem 'Montserrat';
-    color: var(--purple);
-    background-color: #3a3fc7ad;;
+    color: var(--white);
+    background-color: var(--purple);
     border-radius: 50px;
     text-align: center;
 }
     section.testimonials div.aside a:hover{
-        background-color: var(--purple);
-        color: var(--white);
+        background-color: var(--gold);
+        color: var(--purple);
         transition: all 300ms;
     }
     section.testimonials div.aside a:hover img{
-        content: url(assets/WhatsApp.svg);
+        content: url(assets/orange-WhatsApp.svg);
     }
 section.testimonials div.aside a img{
     width: 30px;
